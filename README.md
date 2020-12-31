@@ -13,8 +13,12 @@ https://hub.docker.com/u/ricmed
 Endereço individual das imagens:
 
 https://hub.docker.com/repository/docker/ricmed/laravel_redis
+
 https://hub.docker.com/repository/docker/ricmed/laravel_nginx
+
 https://hub.docker.com/repository/docker/ricmed/laravel_db
+
 https://hub.docker.com/repository/docker/ricmed/laravel_app
+
 
 ##################### AINDA SENDO APRIMORADO! #####################
