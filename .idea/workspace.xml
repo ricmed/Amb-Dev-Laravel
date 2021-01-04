@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abf39b9e-d21d-401d-8852-8636eb9376b2" name="Default Changelist" comment="" />
+    <list default="true" id="abf39b9e-d21d-401d-8852-8636eb9376b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.docker/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DockerfileProd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +26,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -129,6 +141,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1mOCv1TosqAMofSj6EqfbvUdX8w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -139,6 +152,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\ricmed\laravel" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\ricmed\laravel\.docker\app" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -156,11 +175,26 @@
       <updated>1609355478651</updated>
       <workItem from="1609355481749" duration="8649000" />
       <workItem from="1609364676741" duration="4166000" />
-      <workItem from="1609431684111" duration="10646000" />
+      <workItem from="1609431684111" duration="12579000" />
+      <workItem from="1609450584588" duration="144000" />
+      <workItem from="1609465401612" duration="9937000" />
+      <workItem from="1609719231202" duration="1914000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
