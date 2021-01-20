@@ -21,4 +21,9 @@ https://hub.docker.com/repository/docker/ricmed/laravel_db
 https://hub.docker.com/repository/docker/ricmed/laravel_app
 
 
-##################### AINDA SENDO APRIMORADO! #####################
+##################### Atualizado para o Desafio Docker 01 #####################
+
+
+
+##################### Desafio Docker 02 e 03 #####################
+https://hub.docker.com/repository/docker/ricmed/gocodeeducation
