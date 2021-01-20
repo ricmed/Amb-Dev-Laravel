@@ -1,4 +1,4 @@
-version: '3.7'
+version: '3'
 services:
 
   #PHP Service
@@ -6,7 +6,7 @@ services:
     depends_on:
       - db
       - redis
-    build: .
+    build: Dockerfile
     container_name: php
     entrypoint: dockerize -template ./.docker/app/.env:.env -wait tcp://db:3306 -timeout 40s ./.docker/entrypoint.sh
     environment:
@@ -15,9 +15,9 @@ services:
       - DB_USERNAME=root
       - DB_PASSWORD=root
     volumes:
-     - .:/var/www
+      - .:/var/www
     networks:
-      - app-network
+      - app-network2
 
   #Nginx Service
   nginx:
@@ -29,10 +29,13 @@ services:
       - "8000:80"
     volumes:
       - .:/var/www
-    networks:
-      - app-network
+    environment:
+      - APPLICATION_NAME=app
+      - APPLICATION_PORT=9000
     depends_on:
       - app
+    networks:
+      - app-network2
 
   db:
     #image: mysql:5.7
@@ -49,7 +52,7 @@ services:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_USER=root
     networks:
-      - app-network
+      - app-network2
 
   #Redis Service
   redis:
@@ -58,8 +61,8 @@ services:
     expose:
       - 6379
     networks:
-      - app-network
+      - app-network2
 
 networks:
-  app-network:
+  app-network2:
     driver: bridge
